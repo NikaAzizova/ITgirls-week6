@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Josefin+Sans:ital,wght@0,200;0,300;1,200&family=Montserrat:wght@600&family=Poppins:ital,wght@0,200;0,300;1,200&family=Raleway&family=Tenor+Sans&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 1.header */
+.header-container {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>a {
+    text-decoration: none;
+}
+
+.flights {
+    color: #605DEC;
+}
+
+.therest {
+    color: #7C8DB0;
+}
+
+.navigation {
+    margin-right: 35px;
+    display: flex;
+    width: 33%;
+    gap: 10px;
+}
+
+.rest {
+    padding: 10px;
+    padding-top: 20px;
+}
+
+button {
+    
+    padding: 3px;
+    background-color: #605DEC;
+    border-radius: 2px;
+    border-color: #605DEC;
+    border-bottom: #605DEC;
+    border-right: #605DEC;
+}
+
+.button {
+    color: #fff;
+}
+
+/* Часть с основным заголовком*/
+
+.title-part {
+    margin-top: -3rem;
+    margin-left: -5rem;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e0/BlankMap-World-1985.png');
+}
+
+h1 {
+    height: 300px;
+    display: flex;
+    background: -webkit-linear-gradient(45deg, rgb(188, 62, 246), rgb(68, 117, 241));
+    background: -moz-linear-gradient(45deg, rgb(188, 62, 246), rgb(68, 117, 241));
+    background: linear-gradient(45deg, rgb(188, 62, 246), rgb(68, 117, 241));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    color: #7C8DB0;
+}
+
+
+input {
+    padding: 5px;
+    box-shadow: 10px 5px 5px #7C8DB0;
+
+}
+
+select {
+    padding: 5px;
+    box-shadow: 10px 5px 5px #7C8DB0;
+
+}
+
+.depart-return {
+    color: black;
+    box-shadow: 10px 5px 5px #7C8DB0;
+}
+
+.submit {
+    background-color: #605DEC;
+    border-radius: 5px;
+    border-color: #605DEC;
+    border-bottom: #605DEC;
+    border-right: #605DEC;
+    color: #fff;
+}
+
+/* 2. main часть*/
+main {
+    width: 100%;
+    height: 1300px;
+
+}
+
+.text-line {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.firstline {
+    margin-left: 50px;
+    color: #6E7491;
+    display: inline-block;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow1 {
+    width: 50px;
+    color: #6E7491;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.arrow {
+    width: 15px;
+    color: #6E7491;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.flightdeals {
+    color: #605DEC;
+}
+
+.grid-container {
+    width: 90%;
+    height: 600px;
+    margin-left: 50px;
+
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 270px 300px;
+    grid-gap: 20px;
+
+    color: #7C8DB0;
+}
+
+
+.sum1 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.sum2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.sum3 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.sum4 {
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.one {
+    width: 360px;
+    height: 220px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.one:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+.kenya {
+    width: 360px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.kenya:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.long {
+    border: #6E7491;
+    box-shadow: 5px 5px 5px #6E7491;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+/* Продолжениe grid */
+
+.main2 {
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.explore {
+    color: #6E7491;
+}
+
+.places {
+    color: #5CD6C0;
+}
+
+.grid-container2 {
+    margin-left: 50px;
+    margin-right: 70px;
+    display: grid;
+
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 310px;
+
+    grid-gap: 20px;
+    color: #6E7491;
+}
+
+.image-grid2 {
+    width: 360px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.image-grid2:hover {
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+
+.border {
+    border: #6E7491;
+    box-shadow: 5px 5px 5px #6E7491;
+    border-radius: 5px;
+
+}
+
+.button-explore-more {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.explore-more-stays {
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #605DEC;
+    
+}
+
+/* footer*/
+footer {
+    width: 100%;
+    height: 400px;
+}
+
+.grid-container3 {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 100px 180px 200px 200px 100px;
+    grid-template-rows: 1fr;
+    gap: 50px;
+}
+
+.nav-footer2>a {
+    color: #7C8DB0;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.nav-grey-color {
+    color: #6E7491;
+    font-weight: bold;
+}
+
+.icons-container {
+    width: 100%;
+    height: 100px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+
+.icons {
+    width: 30px;
+    padding-right: 10px;
+}

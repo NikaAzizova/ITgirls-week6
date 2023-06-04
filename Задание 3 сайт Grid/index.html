@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="shortcut icon" href="image/earth.png" type="image/png">
+    <title>Trimpa</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="image">
+                <img src="image/logo.png" alt="logo">
+            </div>
+            <div class="navigation">
+                <nav>
+                    <a class="rest flights" href="#">Flights</a>
+                    <a class="rest therest" href="#">Hotels</a>
+                    <a class="rest therest" href="#">Packages</a>
+                    <a class="rest therest" href="#">Sign in</a>
+                </nav>
+                <button class="button">Sign up</button>
+            </div>
+        </div>
+    </header>
+    <div class="title-part">
+        <h1 class="title">It's more than just a trip</h1>
+
+        <div class="form-container">
+            <form action="/search" target="_blank">
+                <label for="from"></label>
+                <select name="from" id="from">
+                    <option value="">From where?</option>
+                    <option value="SFO">SFO</option>
+                    <option value="ATL">ATL</option>
+                    <option value="LAX">LAX</option>
+                    <option value="STL">STL</option>
+                    <option value="PVG">PVG</option>
+                    <option value="MSP">MSP</option>
+                    <option value="NRT">NRT</option>
+                </select>
+
+                <label for="where"></label>
+                <select name="where" id="where">
+                    <option value="">Where to?</option>
+                    <option value="SFO">SFO</option>
+                    <option value="ATL">ATL</option>
+                    <option value="LAX">LAX</option>
+                    <option value="STL">STL</option>
+                    <option value="PVG">PVG</option>
+                    <option value="MSP">MSP</option>
+                    <option value="NRT">NRT</option>
+                </select>
+
+                <span class="depart-return">Depart</span>
+                <input type="date" name="depart">
+                <span class="depart-return">Return</span>
+                <input type="date" name="return">
+
+
+                <label for="adults"></label>
+                <select name="adults" id="adults">
+                    <option value="adults">Adults</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <input class="submit" type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <div class="text-line">
+            <p class="firstline">Find your next adventure with these <a href="#" target="_blank"> <span
+                        class="flightdeals"> flight deals</span></a></p>
+
+            <div class="arrow1">
+                <a href="#" target="_blank">
+                    <p>All</p>
+                </a>
+                <img src="image/right-arrow.png" alt="arrow" class="arrow">
+            </div>
+
+        </div>
+
+        <div class="grid-container">
+            <div class="border">
+                <img src="image/shanghai.png" alt="photo shanghai" class="one">
+                <div class="sum1">
+                    <h4>The Bund, <a href="#"><span class="flightdeals">Shanghai</span></a> </h4>
+                    <p>$598</p>
+                </div>
+
+                <p>China's most international city</p>
+            </div>
+
+            <div class="border">
+                <img src="image/sidney.png" alt="sidney" class="one">
+                <div class="sum2">
+                    <h4>Sidney Opera House, <a href="#"><span class="flightdeals">Sidney</span></a></h4>
+                    <p>$981</p>
+                </div>
+
+                <p>Take a stroll along the famous harbor</p>
+            </div>
+
+            <div class="border">
+                <img src="image/kyoto.png" alt="kyoto" class="one">
+                <div class="sum3">
+                    <h4>Kodaiji Temple, <a href="#"><span class="flightdeals">Kyoto</span></a> </h4>
+                    <p>$633</p>
+                </div>
+
+                <p>Step back in time in Gion district</p>
+            </div>
+
+
+            <div class="long">
+                <div class="kenya">
+                    <img src="image/kenya.png" alt="kenya" class="kenya">
+                    <div class="sum4">
+                        <h4>Tsavo East National Park, <a href="#"><span class="flightdeals">Kenya</span></a></h4>
+                        <p>$1,248</p>
+                    </div>
+                    <p>Named after the Tsavo River, and opened in April 1984,Tsavo East National Park is one of the
+                        oldest parks in Kenya. It is located in semi-arid Taru Desert. </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="main2">
+            <p><span class="explore">Explore unique</span> <span class="places">places to stay</span></p>
+            <div class="arrow1">
+                <a href="#" target="_blank">
+                    <p>All</p>
+                </a>
+                <img src="image/right-arrow.png" alt="arrow" class="arrow">
+            </div>
+        </div>
+        <div class="grid-container2">
+
+            <div class="border">
+                <img src="image/Card.png" alt="Maldives" class="image-grid2">
+                <h4>Stay among the atolls in <span class="places"> Maldives</span></h4>
+                <p>From the 2nd century AD, the islands were known as the 'Money Isles' due to the abundance of cowry
+                    shells, a currency of the early ages.</p>
+            </div>
+
+            <div class="border">
+                <img src="image/Card2.png" alt="morocco" class="image-grid2">
+                <h4>Experience the Ourika Valley in <span class="places">Morocco</span></h4>
+                <p>Morocco's Hispano-Moorish architecture blends influences from Berber culture, Spain, and contemporary
+                    artistic currents in the Middle East.</p>
+            </div>
+
+            <div class="border">
+                <img src="image/Card3.png" alt="mongolia" class="image-grid2">
+                <h4>Live traditionally in <span class="places">Mongolia</span></h4>
+                <p>Traditional Mongolian yurts consists of an angles latticework of wood or bamboo for walls, ribs, and
+                    a wheel.</p>
+            </div>
+        </div>
+        <div class="button-explore-more">
+            <button class="explore-more-stays">Explore more stays</button>
+        </div>
+
+        <footer>
+
+            <div class="grid-container3">
+                <div> <img src="image/logo.png" alt="logo"></div>
+                <div>
+                    <nav class="nav-footer2">
+                        <a href="#" class="nav-grey-color">About</a>
+                        <a href="#">About Tripma</a>
+                        <a href="#">How it works</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Press</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Forum</a>
+                    </nav>
+                </div>
+
+
+
+                <div>
+                    <nav class="nav-footer2">
+                        <a href="#" class="nav-grey-color">Partner with us</a>
+                        <a href="#">Parntership programs</a>
+                        <a href="#">Affiliate program</a>
+                        <a href="#">Connectivity partners</a>
+                        <a href="#">Promotions and events</a>
+                        <a href="#">Integrations</a>
+                        <a href="#">Community</a>
+                        <a href="#">Loyalty program</a>
+                    </nav>
+                </div>
+
+
+                <div>
+                    <nav class="nav-footer2">
+                        <a href="#" class="nav-grey-color">Support</a>
+                        <a href="#">Help Center</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Terms of service</a>
+                        <a href="#">Trust and safety</a>
+                        <a href="#">Accessibility</a>
+                    </nav>
+                </div>
+
+
+                <div>
+                    <nav class="nav-footer2">
+                        <a href="#" class="nav-grey-color">Get the app</a>
+                        <a href="#">Tripma</a>
+                        <a href="#">Tripma for iOS</a>
+                        <a href="#">Mobile site</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="icons-container">
+                <img src="image/twitter.png" alt="twitter" class="icons">
+                <img src="image/instagram.png" alt="instagram" class="icons">
+                <img src="image/facebook.png" alt="facebook" class="icons">
+            </div>
+
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
